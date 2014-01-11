@@ -11,9 +11,11 @@ SIGNATURE = chr(0xFF)+chr(0)*8+chr(0x7F)
 DEBUG = False
 
 class Zmq3Protocol(Protocol):
+
     version = 3
     header_size = 11
     send_handshake = True
+
     # http://rfc.zeromq.org/spec:23
     def __init__(self, type='DEALER'):
         if DEBUG:

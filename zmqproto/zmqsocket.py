@@ -2,6 +2,7 @@
 DEBUG = False
 
 class ZmqSocket(object):
+
     def __init__(self, cb=None, version=1, type='DEALER'):
         self.proto = None
         self._cb = cb
