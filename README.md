@@ -36,6 +36,15 @@ Examples
 
     reactor.run()
 
+License and Contribution Policy
+================================
+
+We use the libzmq license (LGPLv3 + static link exception) as specified
+in the LICENSE file in this repo.
+
+This project abides by the C4.1 process for contributions.
+See http://rfc.zeromq.org/spec:22
+
 --
 
 unsystem dev
